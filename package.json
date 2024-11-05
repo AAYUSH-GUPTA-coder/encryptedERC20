@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "fhevm": "^0.5.9",
+    "fhevm-core-contracts": "^0.1.0-2"
+  }
+}
