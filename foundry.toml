@@ -2,5 +2,10 @@
 src = "src"
 out = "out"
 libs = ["lib"]
+remappings = [
+    "fhevm/=node_modules/fhevm", 
+    "fhevm-core-contracts/=node_modules/fhevm-core-contracts", 
+    "@openzeppelin/=node_modules/@openzeppelin"
+    ]
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
